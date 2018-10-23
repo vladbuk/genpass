@@ -9,7 +9,7 @@ def genpass(length, strong=2):
 
     def randompass(length, chars_list):
         result = []
-        for n in range(length):
+        for _ in range(length):
             result.append(random.choice(chars_list))
 
         return ''.join(result)
