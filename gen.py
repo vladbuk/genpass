@@ -1,3 +1,8 @@
+'''
+Module to run from console.
+
+May use two command line arguments (length and strong) or none.
+'''
 from genpass_class import Genpass
 from sys import argv
 
